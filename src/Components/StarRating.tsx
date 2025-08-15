@@ -1,5 +1,3 @@
-import { div } from 'motion/react-client'
-
 const StarRating = ({ rating }: { rating: number }) => {
 	const stars = []
 	const totalStars = 5
