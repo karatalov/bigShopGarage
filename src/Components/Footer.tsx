@@ -7,14 +7,12 @@ const Footer = () => {
 	return (
 		<footer className="bg-[#f9f4e2] mb-14 md:mb-0 bg-[url('/images/graphics/pattern-footer.png')] px-[max(12px,calc((100%-1208px)/2))] w-full">
 			<div className='px-7 py-10 grid-container gap-6 text-[#414141] md:gap-x-10 items-center'>
-				{/* Логотип со ссылкой на главную */}
 				<div className='logo'>
 					<Link href='/' className='relative w-23 h-16 md:w-16 md:h-11 block'>
 						<Image src='/icons-footer/logo-footer.png' alt='Логотип' fill />
 					</Link>
 				</div>
 
-				{/* Социальные сети с кликабельными иконками */}
 				<div className='social flex flex-row gap-x-5 md:flex-col xl:flex-row gap-y-3 justify-between'>
 					<div className='flex gap-x-5 items-start'>
 						<a href='https://vk.com' target='_blank' rel='noopener noreferrer'>
